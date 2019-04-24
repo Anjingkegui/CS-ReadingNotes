@@ -35,7 +35,7 @@
 * `git branch -d xx` 用来删除分支，`-D` 为强制删除
 
 * `git merge` 命令用于合并指定分支到当前分支
-* 
+
 #### 冲突解决
 
 修改那些冲突的文件
@@ -57,10 +57,6 @@
     如果`git pull`提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，用命令`git branch --set-upstream-to <branch-name> origin/<branch-name>`。
 
 #### rebase - 解决merge造成的混乱的历史记录
-
-
-
-
 
 
 
