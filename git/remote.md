@@ -30,11 +30,19 @@
 
 `branch` 用来新建分支，`git branch -vv` 便于查看所有分支
 
-`checkout` 用来切换分支
+`checkout` 用来切换分支，其实就是在改`HEAD` 的指向
 
 * `git branch -d xx` 用来删除分支，`-D` 为强制删除
 
 * `git merge` 命令用于合并指定分支到当前分支
+
+master分支上的一次典型的合并
+
+![](/assets/2019425103.png)
+
+
+
+
 
 #### 冲突解决
 
